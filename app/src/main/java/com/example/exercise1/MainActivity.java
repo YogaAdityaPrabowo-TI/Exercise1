@@ -41,9 +41,9 @@ public class MainActivity extends AppCompatActivity {
                 password = edpassword.getText().toString();
 
 
-                String email = "admin@gmail.com";
+                String email = "admin@mail.com";
 
-                String pass = "123";
+                String pass = "123456";
 
                 if (nama.isEmpty() || password.isEmpty()) {
                     Toast t = Toast.makeText(getApplicationContext(),
